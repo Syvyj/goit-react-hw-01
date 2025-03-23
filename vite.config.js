@@ -6,5 +6,7 @@ export default defineConfig({
   base: '/goit-react-hw-01/',
   build: {
     sourcemap: true,
+    outDir: 'dist',
+    assetsDir: 'assets',
   },
 });
