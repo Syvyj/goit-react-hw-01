@@ -18,17 +18,36 @@ and enable type-aware lint rules. Check out the
 to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io)
 in your project.
 
-# Домашнє завдання №1
+# Homework 1 - React Components
 
-У цьому проекті було виконано наступне:
+## Task Description
 
-- Створено React-додаток з використанням Create React App.
-- Реалізовано компоненти для відображення інформації згідно з вимогами завдання.
-- Використано стилізацію компонентів для покращення вигляду додатку.
-- Налаштовано структуру проекту для зручності роботи з компонентами.
-- Додано `.gitignore` для виключення зайвих файлів, таких як `node_modules`.
+### English
 
-Для запуску проекту локально:
+Create a React application with separate components to display user profiles,
+statistics, friend lists, and transaction history. Style the components
+according to the provided layouts and requirements. Components should work
+correctly with the provided sample data and be reusable with different data
+sets.
 
-1. Встановіть залежності за допомогою `npm install`.
-2. Запустіть проект командою `npm start`.
+The page should contain:
+
+- Profile component for social network user
+- Statistics section
+- Friend list with online/offline status
+- Transaction history in table format
+
+### Українською
+
+Створіть React-застосунок з окремими компонентами для відображення профілів
+користувачів, статистики, списку друзів та історії транзакцій. Стилізуйте
+компоненти відповідно до наданих макетів та вимог. Компоненти повинні коректно
+працювати з наданими прикладами даних та бути придатними для повторного
+використання з різними наборами даних.
+
+Сторінка повинна містити:
+
+- Компонент профілю користувача соціальної мережі
+- Секцію статистики
+- Список друзів з статусом онлайн/офлайн
+- Історію транзакцій у табличному форматі
