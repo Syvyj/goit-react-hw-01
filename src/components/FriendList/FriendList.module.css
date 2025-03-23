@@ -6,3 +6,12 @@
   list-style: none;
   gap: 10px;
 }
+
+.friendList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
