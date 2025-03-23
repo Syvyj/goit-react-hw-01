@@ -9,14 +9,16 @@ export default defineConfig({
     alias: {
       '@': resolve(__dirname, 'src'),
     },
+    extensions: ['.js', '.jsx'],
   },
   build: {
     sourcemap: true,
     rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+      },
       output: {
-        assetFileNames: 'assets/[name].[ext]',
-        chunkFileNames: 'assets/[name].[hash].js',
-        entryFileNames: 'assets/[name].[hash].js',
+        manualChunks: undefined,
       },
     },
   },
