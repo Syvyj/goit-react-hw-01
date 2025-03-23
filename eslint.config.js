@@ -30,11 +30,18 @@ export default [
       ...reactHooks.configs.recommended.rules,
       'react/prop-types': 0,
       'react/jsx-no-target-blank': 'off',
-      'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
       ],
+    },
+
+    extends: ['eslint:recommended', 'plugin:react/recommended'],
+
+    parser: '@typescript-eslint/parser',
+    parserOptions: {
+      ecmaVersion: 2020,
+      sourceType: 'module',
     },
   },
 ];
